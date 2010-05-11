@@ -1,0 +1,85 @@
+#med 3
+NumAssmPerAssm 	3
+NumCompPerAssm		3
+NumCompPerModule	500
+NumAssmLevels		7
+TotalModules		1
+NumAtomicPerComp	200
+NumConnPerAtomic	3
+DocumentSize		20000
+ManualSize              1000000
+CacheSize               1500
+
+debugMode 			false
+
+useIndexes true
+dbname oo7j_large
+large3 true
+annotationConfiguration true
+
+# transactions can be one or many
+manyTransactions true
+
+#repeat count for repeated updates
+UpdateRepeatCnt  4
+
+# repeat count for query #1 lookups:
+Query1RepeatCnt 10
+
+# selected % for query #2 lookups
+Query2Percent 1
+
+#selected % for query #3 lookups
+Query3Percent 10
+
+#repeat count for query #4 lookups
+Query4RepeatCnt 10
+
+# new composite parts for updates:
+NumNewCompParts 10
+
+# base assemblies used in updates:
+BaseAssmUpdateCnt 10
+
+# multiuser mark processes:
+MultiMPL 4
+
+#pvz: added this to run the markbench directly in memory 
+inMemoryRun false
+#generate the db if it does not exist
+generateDB true
+
+#<number of Composite Objects>
+numberOfCompositeObjects 500
+
+#pvz: added this to run the mark 
+repeatCount 5
+
+
+#pvz: added this to run the mark directly in memory
+benchmarkOp Trav1
+
+#<repeatCount> <operation> <one transaction or many>
+#posible values:
+#5 t1 one
+#5 t1 many"
+#1 t2a one
+#1 t2b one
+#1 t2c one
+#1 t3a one
+#1 t3b one
+#1 t3c one
+#5 t4 one
+#5 t6 one
+#5 t8 one
+#5 t9 one
+#5 q1 one
+#5 q2 one
+#5 q3 one
+#5 q4 one
+#5 q5 one
+#5 q7 one
+#5 q8 one
+#1 i one
+#1 d one
+#1 wu one
