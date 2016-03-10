@@ -1,0 +1,1 @@
+This project is a JPA-implementation of the well-known OO7 Benchmark. It was made as part of a master thesis.
